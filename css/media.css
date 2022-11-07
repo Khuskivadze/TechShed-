@@ -1,0 +1,544 @@
+/* iphone 12 pro 
+
+@media (max-width:844px){
+    header{
+        width: 100%;
+
+    }
+    header .logo-navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header .logo-navbar .logo-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    header .logo-navbar .logo-header .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    header .logo-navbar .logo-header .logo a {
+        font-size: 40px;
+        align-items: center;
+        display: flex;
+    }
+    header .logo-navbar .logo-header .search .search-btn {
+       width: 400px;
+    
+    }
+    .bi-list {
+        display: block;
+    }
+    .bi-x-circle{
+        display: block;
+    }
+    header .acount {
+        width: 100% !important;
+        
+        
+
+    }
+    header .acount .container {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between !important ;
+    }
+
+
+    header .navigation {
+        display: none;
+    }
+    header .cart-navigation{
+        display: inline-block !important;
+    }
+   
+
+
+
+    main{
+        margin-top: 25%;
+    }
+    main .title{
+        display: none !important;
+    }
+    main .cover .carousel-inner{
+        height: 200px !important;
+    }
+    main .cover .carousel-inner img{
+        height: 100% !important;
+    }
+    main .card-contaiener{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        gap: 2rem !important;
+        overflow: hidden !important;
+    }
+    main .card-contaiener .box img{
+        width: 615px !important;
+        height: 200px !important;
+        
+
+    }
+    .line{
+        display: inline;
+    }
+    main .section .card-contaiener .box .text{
+        position: absolute;
+        width: 90% !important;
+        margin-top: 5% !important;
+         
+    }
+    main .section .card-contaiener  .text p{
+         
+        font-size: 15px;
+        
+    
+    }
+     
+    main .section .card-contaiener   .text h1{
+        font-size: 20px;
+        width: 50% !important;
+        margin: -3% 0;
+        
+        
+    }
+    main .section .card-contaiener   .text  span{
+         
+        font-size: 15px;
+       margin-top: 3% !important;
+    
+    }
+    main .section .card-contaiener   .text  a {
+        width: 60% !important;
+        height: 40px !important;
+    }
+
+
+    main .banner .banner-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:.2rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 8%;
+         
+
+        
+        
+    }
+    main .banner .banner-container div {
+        width: 90%;
+    }
+    main .banner .banner-container div h4{
+        
+        font-size: 15px;
+        
+    }
+    main .banner .banner-container div  i{
+        font-size: 25px;
+    }
+
+    main .best-sallers{
+        margin : 5% !important;
+    }
+    
+    main .best-sallers .sellers-container  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+    
+   
+     
+
+
+    
+    
+} */
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1400px){
+    
+    header .logo-navbar .logo-header{
+        margin: 0 auto;
+         
+     
+    }
+    header .logo-navbar .acount{
+        width: 45%;
+        height: 100%;
+        
+         
+         
+        
+    }
+    
+    header .navigation nav{
+        width: 60%;
+        height: 100%;
+        margin: 0 45px;
+        
+    }
+    main .carousel .title{
+        
+        margin: -32% 14%;
+        
+        
+    }
+    main .carousel .title  h1{
+        font-size: 50px;
+         
+        font-weight: bold;
+        width: 50%;
+    }
+    main .section{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    main .section .card-contaiener{
+        
+     position: relative;
+     display: flex;
+     justify-content: space-around;
+     width: 90%;
+     margin: 2% 3.5%;
+     gap: 2rem;
+    }
+    main .section .card-contaiener .box{
+         display: flex;
+         justify-content: center;
+          
+         width: 100%;
+        height: 468px !important;
+         
+    }
+    main .section .card-contaiener .box  img{
+        overflow: hidden;
+        
+        width: 615px !important;
+        height: 468px !important;
+        
+    }
+
+    main .section .card-contaiener .box .text{
+        position: absolute;
+        width: 35%;
+        margin-top: 5%;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section{
+      width: 93.5% !important;
+      margin: 2% auto !important;
+    }
+    main .best-sallers{
+        display: flex;
+        flex-direction: column;
+        height: 700px ;
+        
+    }
+
+    main .sellers-container{
+        width: 90% !important;
+       
+        margin: 2% auto !important;
+        
+         
+    }
+
+    main .best-sallers .sellers-container .box{
+        width: 200px !important;
+        height: 320px !important;
+        
+         
+    }
+    main .best-sallers .sellers-container .box .img {
+        width: 189px !important;
+        height: 281px !important;
+        display: flex;
+        justify-content: center;
+        
+    }
+    main .best-sallers .sellers-container .box .img img{
+        width: 95% !important;
+        height: 200px!important;
+         
+    }
+
+    main .best-sallers .sellers-container .box  .title{
+        width: 189px !important;
+        height: 131px !important;
+        margin: -100px 10px !important;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+    
+    }
+    main .best-sallers .sellers-container .box:nth-child(3) .title {
+         
+        margin-top: -5rem !important;
+    }
+    main .best-sallers .sellers-container .box:nth-child(5) .title {
+         
+        margin-top: -5rem !important;
+    }
+    main .best-sallers .sellers-container .box  .title h3{
+        font-size: 14px;
+        width: 80%;
+         
+    }
+    main .best-sallers .sellers-container .box  .title .price  {
+        margin: 0 1rem;
+    }
+
+    main .best-sallers .btn a{
+        width: 25%;
+        height: 55px;
+    }  
+
+    main .category{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+         
+    
+    }
+
+    main .category .category-container {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       gap: .2rem;
+    
+       
+    }
+    main .category .category-container .box{
+        width: 210px;
+        height: 100px;
+    }
+    main .category .category-container .box img {
+        width: 182px;
+        height: 183px;
+    }
+    main .category .category-container .box .title h2{
+        font-size: 20px;
+    }
+    
+    main .content-cover .cover{
+        width: 100%;
+        display: flex;
+        position: relative;
+        
+    }
+    main .content-cover .cover .img{
+        width: 100%;
+        height: 600px;
+        object-fit: contain;
+        overflow: hidden;
+
+
+    }
+   
+    main .content-cover .cover .title {
+        width: 40%;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 100% 100%, 31% 100%);
+        position: absolute;
+        top: 0;
+        left: 60%;
+    }
+    main .content-cover .cover .title  h4 {
+        width: 45%;
+    }
+    main .content-cover .price {
+        width: 15%;
+        height: 200px;
+    }
+
+
+
+
+
+
+
+    main .content-cover-section .cover{
+        width: 100%;
+        display: flex;
+        position: relative;
+        
+    }
+    main .content-cover-section  .cover .img{
+        width: 100%;
+        height: 600px;
+        object-fit: contain;
+        overflow: hidden;
+
+
+    }
+    main .content-cover-section  .cover .img img{
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+    }
+   
+    main  .content-cover-section .cover .title {
+        width: 40%;
+        clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%, 0 100%);
+        position: absolute;
+        top: 0;
+        right: 60%;
+    }
+
+    main .content-cover-section .text {
+        margin-top: 10%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    main .content-cover-section .text h1 {
+        width: 30%;
+    }
+    main .content-cover-section .text h3{
+        font-size: 20px;
+         
+    }
+    main .content-cover-section .text p span{
+         
+        font-size: 60px;
+        font-weight: bold;
+         
+    }
+    main .content-cover-section .text p {
+        font-size: 60px;
+        
+    }
+    main .brand {
+        display: flex;
+        flex-direction: column;
+    }
+    main .brand .brand-container {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10%;
+        
+    }
+    main .brand .brand-container div{
+        width: 214px ;
+        height: 107px;
+    }
+    main .brand .brand-container div img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    main .content-section{
+        width: 100% !important;
+        height: 449px !important;
+         
+    
+    
+    }
+    main .content-section .title{
+        width: 50% !important;
+    }
+    main .content-section .title .text{
+        width: 55%;
+    }
+    main .content-section a{
+        width: 50% !important;
+        margin-right: 8% !important;
+    }
+    main .content-section .image{
+        width: 70% !important;
+        overflow: hidden !important;
+        object-fit: contain !important;
+    }
+
+
+
+
+
+    .shop-all{
+        width: 100% !important;
+    }
+
+    .shop-all .right-side{
+        width: 20% !important;    
+      
+    }
+    .right-side .collection .dropdown-menu{
+        width: 14% !important;
+    
+    }
+    .shop-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+ 
+    
+    }
+    .shop-container .box{
+        width: 280px ;
+        height: 380px;
+        
+    
+    }
+    .shop-container .box .img{
+        width: 100%;
+        height: 280px;
+      
+    }
+    .left-side .sort{
+        width: 18% !important;
+        margin-left: 75% !important;
+        
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+     
+
+
+
+
+}

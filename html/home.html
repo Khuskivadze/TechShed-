@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<header class="header">
+    <div class="logo-navbar">
+        <div class="logo-header">
+            <div class="logo">
+                 <a href="../html/home.html">TechShed</a>
+                 <i class="bi bi-list" id="menu-btn"></i>
+            </div>
+            <div class="search">
+                <form action="" class="search-btn">
+                    <input type="text" name="search" id="search" placeholder="Search....">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                 
+            </div>
+
+        </div>
+        <div class="line" style="width: 100%; border: 0.5px solid grey;" ></div>
+        <div class="acount">
+
+            <div class="container">
+                
+                <div class="box">
+                    <i class="bi bi-person-circle"></i>
+                    <p>Log In</p>
+                </div>
+                <div class="box">
+                    <i class="bi bi-heart"></i>
+                    <p>Favorites</p>
+                </div>
+                <div class="box">
+                    <i class="bi bi-cart-check-fill"></i>
+                    <p>Shoping cart</p>
+                </div>
+                 
+            </div>
+            
+        </div>
+    </div>
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li><a href="../html/shopAll.html">Shop All</a></li>
+                <li><a href="../html/Computers.html">Computers </a></li>
+                <li><a href="../html/tablets.html">Tablets</a></li>
+                <li><a href="../html/droneAndCameras.html">Drones & Cameras</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/mobile.html">Mobile</a></li>
+                <li><a href="../html/tvHome.html">T.V & Home Cinema</a></li>
+                <li><a href="../html/wearable.html">Wearable Tech</a></li>
+                <li><a href="../html/sale.html">Sale</a></li>
+
+
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="cart-navigation">
+     <div id="close-side-bar"><i class="bi bi-x-circle"></i></div>
+    <nav>
+         
+        <ul>
+            <li><a href="../html/shopAll.html">Shop All</a></li>
+            <li><a href="../html/Computers.html">Computers </a></li>
+            <li><a href="../html/tablets.html">Tablets</a></li>
+            <li><a href="../html/droneAndCameras.html">Drones & Cameras</a></li>
+            <li><a href="../html/audio.html">Audio</a></li>
+            <li><a href="../html/mobile.html">Mobile</a></li>
+            <li><a href="../html/tvHome.html">T.V & Home Cinema</a></li>
+            <li><a href="../html/wearable.html">Wearable Tech</a></li>
+            <li><a href="../html/sale.html">Sale</a></li>
+
+
+        </ul>
+    </nav>
+</section>
+<main>
+    <section class="cover">
+         
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"  >
+            <div class="carousel-inner" style="height: 500px;">
+              <div class="carousel-item active">
+                <img src="../images/cover-1.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/cover-2.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/cover-3.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+              </div>
+            </div>
+            <div class="title">
+                <p>Best Price</p>
+                <h1>Incredible Prices on All Your Favorite Items</h1>
+                <span>Get more for less on selected brands</span>
+                <a href="../html/shopAll.html">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="card-contaiener">
+            <div class="box">
+                <div class="img">
+                    <img src="../images/card-1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Holiday Deals</p>
+                    <h1>Up to 30% off</h1>
+                    <span>Selected Smartphone Brands </span>
+                    <a href="../html/shopAll.html">Shop</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="../images/card-2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Just In</p>
+                    <h1>Take Your Sound Anywhere</h1>
+                    <span>Top Headphone Brands </span>
+                    <a href="../html/shopAll.html">Shop</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+    <section class="section banner">
+        <div class="banner-container">
+           <div> 
+                <i class="bi bi-bicycle"></i>
+                <h4>Curb-side pickup</h4>
+           </div>
+           <div> 
+               <i class="bi bi-box-fill"></i>
+               <h4>Free shipping on orders over $50</h4>
+           </div>
+           <div> 
+              <i class="bi bi-card-checklist"></i>
+              <h4> Low prices guaranteed</h4>
+           </div>
+           <div> 
+              <i class="bi bi-clock"></i>
+              <h4>Available to you 24/7 </h4>
+           </div>           
+        </div>
+
+    </section>
+    <section class="section best-sallers">
+        <h2 class="heading">Best Sellers</h2>
+
+        <div class="sellers-container">
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                    <img src="../images/mobile/mobile-1.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Google Pixel 7 Pro 5G 12/128GB Obsidian</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                    <img src="../images/pc/pc-1.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Acer Swift 1 SF114-34-P8OW NX.A76ER.007 Silver</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <!-- <div class="span"><span>SALE</span></div> -->
+                <div class="img">
+                    <img src="../images/PhDR/dr-1.jpg.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>DJI Mavic 3</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                    <img src="../images/audio/audio-1.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Balo Headphones 700 Wireless Noise Cancelling</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <!-- <div class="span"><span>SALE</span></div> -->
+                <div class="img">
+                    <img src="../images/PhDR/ph-1.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Canon EOS 5D Mark IV Body Black</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                   <img src="../images/tablets/tb-2.jpg.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Apple iPad Mini 2021 6th Generation 8.3 inch 64GB Wi-Fi Pink</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>         
+        </div>
+        <div class="btn">
+            <a href="../html/shopAll.html">View All</a>
+        </div>
+    </section>
+    <section class="section category">
+        <h2 class="heading">Shop by Category</h2>
+
+        <div class="category-container">
+            <a href="../html/Computers.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pi-1.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Computer</h2>
+                </div>
+            </a>
+            <a href="../html/Computers.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-2.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Mobile</h2>
+                </div>
+            </a>
+            <a href="../html/droneAndCameras.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-3.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Drones & Cameras</h2>
+                </div>
+            </a>
+            <a href="../html/sale.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-6.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Sale</h2>
+                </div>
+            </a>
+            <a href="../html/tablets.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-4.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Tablets</h2>
+                </div>
+            </a>
+            <a href="../html/sale.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-5.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Best Seller</h2>
+                </div>
+            </a>
+            <a href="../html/tvHome.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-7.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>T.V & Home Cinema</h2>
+                </div>
+            </a>
+            <a href="../html/audio.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-8.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Speakers</h2>
+                </div>
+            </a>
+            <a href="../html/audio.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-9,jpg.webp" alt="">
+                </div>
+                <div class="title">
+                    <h2>Headphones</h2>
+                </div>
+            </a>
+            <a href="../html/wearable.html" class="box">
+                <div class="img">
+                    <img src="../images/cadegory/pic-10.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h2>Wearable Tech</h2>
+                </div>
+            </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        
+    </section>
+    <section class="section content-cover" >
+        <div class="cover">
+            <div class="img">
+                <img src="../images/cadegory/cover.jpg" alt="">
+            </div>
+            <div class="title">
+                <h3>Save up to</h3>
+                <p>$150</p>
+                <h4>on selected laptop & tablets brands</h4>
+                <span>Terms and conditions apply</span>
+                 <a href="../html/shopAll.html">Shop</a> 
+            </div>
+             
+        </div>
+        <div class="price">
+           <h2><span>  Best </span></h2>
+           <h2><span>Price</span></h2>
+        </div>
+    </section>
+    <section class="section best-sallers">
+        <h2 class="heading">On Sale</h2>
+
+        <div class="sellers-container">
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                    <img src="../images/mobile/mobile-2.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Apple iPhone 14 Plus | 256GB Midnight</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                    <img src="../images/pc/pc-2.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Dell Vostro 3510 N8066VN3510EMEA01_2201_GE Grey</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <!-- <div class="span"><span>SALE</span></div> -->
+                <div class="img">
+                    <img src="../images/PhDR/dr-2.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>DJI Mini 3 Pro</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                    <img src="../images/audio/audio-2.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Space Buds True Wireless Earbud Headphones</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <!-- <div class="span"><span>SALE</span></div> -->
+                <div class="img">
+                    <img src="../images/PhDR/ph-2.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Canon EOS 2000D EF-S 18-55 IS II KIT Black</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="span"><span>SALE</span></div>
+                <div class="img">
+                   <img src="../images/tablets/tb-3.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h3>HONOR Pad 8 6GB RAM 128GB Wi-Fi Global Version Blue Hour</h3>
+                    <div class="price">
+                        <p>$85.00</p> <span>$70.00</span>
+                    </div>
+                </div>
+            </div>         
+        </div>
+        <div class="btn">
+            <a href="../html/shopAll.html">View All</a>
+        </div>
+    </section>
+    <section class="section content-cover-section" >
+        <div class="cover">
+            <div class="img">
+                <img src="../images/cadegory/cover-2.jpg" alt="">
+            </div>
+            <div class="title">
+                <div class="text">
+                    <h1>Today's Special  </h1>
+                    <h3>Best Arial View in Town</h3>
+                    <p><span>30%</span> OFF</p>
+                    <h3>on selected laptop & tablets brands</h3>
+                    <span>Limited quantities.</span>
+                    <span>See product detail pages for availability.</span>
+                    <a href="../html/shopAll.html">Shop</a> 
+                </div>
+            </div>
+             
+        </div>
+         
+    </section>
+    <section class="section brand">
+        <h1 class="heading"> Brands</h1>
+        <div class="brand-container">
+           <div> 
+                <img src="../images/cadegory/br-1.jpg" alt="">
+           </div>
+           <div> 
+            <img src="../images/cadegory/br-2.jpg" alt="">
+           </div>
+           <div> 
+            <img src="../images/cadegory/br-3.jpg" alt="">
+           </div>
+           <div> 
+            <img src="../images/cadegory/br-4.jpg" alt="">
+           </div>       
+           <div> 
+            <img src="../images/cadegory/br-5.jpg" alt="">
+           </div>       
+        </div>
+
+    </section>
+
+    <section class=" section news">
+        <h1 class="heading" style="color: white;">Newsletter</h1>
+
+        <p>Sign up to receive updates on new arrivals and special offers</p>
+
+         
+        <form action="">
+             <p>Email *</p>
+            <input type="text" placeholder="Your Email Here">
+            <a href="#">Subscribe</a>
+        </form>
+
+    </section>
+    <section class="  content-section">
+        <div class="title">
+            <div class="text">
+                <h1>Need Help? Check Out Our Help Center</h1>
+                <p>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>
+                 
+            </div>
+            <a href="#">Go to Help Center</a>
+        </div>
+        <div class="image">
+            <img src="../images/cadegory/cover-3.jpg" alt="">
+        </div>
+
+    </section>
+
+
+
+</main>
+
+
+<footer>
+
+    <section class="footer-container">
+        <div>
+            <div>
+                <p style="font-size: 26px;">Store Location</p>
+                <p>500 Terry Francois Street</p>
+                <p>San Francisco, CA 94158</p>
+                <p>info@mysite.com</p>
+                <p>123-456-7890</p>
+            </div>
+            <div class="social">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+    
+        </div>
+        <div>
+            <p>Shop</p>
+            <nav>
+                <ul>
+                    <li><a href="../html/shopAll.html">Shop All</a></li>
+                    <li><a href="../html/Computers.html">Computers </a></li>
+                    <li><a href="../html/tablets.html">Tablets</a></li>
+                    <li><a href="../html/droneAndCameras.html">Drones & Cameras</a></li>
+                    <li><a href="../html/audio.html">Audio</a></li>
+                    <li><a href="../html/mobile.html">Mobile</a></li>
+                    <li><a href="../html/tvHome.html">T.V & Home Cinema</a></li>
+                    <li><a href="../html/wearable.html">Wearable Tech</a></li>
+                    <li><a href="../html/sale.html">Sale</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <p>Customer Support</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <p>Policy</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Shipping & Returns </a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Payment Methods </a></li>
+                    <li><a href="#">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+
+ 
+
+
+    <div class=" section line-border"></div>
+
+
+</footer>
+
+<section class="payment">
+    <div>
+        <img src="../images/payment/pic-1.jpg" alt="">
+        <img src="../images/payment/pic-2.jpg" alt="">
+        <img src="../images/payment/pic-3.jpg" alt="">
+        <img src="../images/payment/pic-4.jpg" alt="">
+        <img src="../images/payment/pic-5.jpg" alt="">
+        <img src="../images/payment/pic-6.jpg" alt="">
+        <img src="../images/payment/pic-7.jpg" alt="">
+
+    </div>
+</section>
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="../js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

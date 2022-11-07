@@ -1,0 +1,840 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none !important;
+}
+body{
+    background: rgb(237,236,236) !important;
+    font-family: 'Montserrat', sans-serif
+}
+:root{
+    -bg-collor:rgb( 117,31,255);
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+ 
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header .logo-navbar{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header .logo-navbar .logo-header{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+header .logo-navbar .logo-header .logo a{
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+ 
+}
+header .logo-navbar .logo-header .search .search-btn {
+    width: 350px;
+    max-width: 600px;
+    height: 50px;
+    background: rgb(237,236,236);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    
+    
+}
+header .logo-navbar .logo-header .search .search-btn input{
+     background: transparent;
+     flex: 1;
+     border: 0; 
+      outline: none;
+     font-size: 15px;
+     color: #000;
+     width: 90%;
+     height: 100%;
+     
+      
+
+}
+::placeholder{
+    color: #000;
+}
+.bi-list {
+    font-size: 50px;
+    display: none;
+}
+.cart-navigation{
+    width: 360px;
+    height: 100vh;
+    background-color: rgb( 117,31,255);
+     z-index: 1000;
+    position: fixed;
+    top: 0;
+    
+    right:  -115%;
+
+    
+}
+.cart-navigation nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-navigation nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.cart-navigation nav ul li a {
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: white;
+}
+.bi-x-circle{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    right: 7%;
+    display: none;
+    top: 0;
+     
+}
+.cart-navigation.active{
+    right: 0;
+}
+header .logo-navbar .logo-header .search .search-btn button i{
+    font-size: 21px;
+     color: #fff;
+    width: 25px;
+}
+header .logo-navbar .logo-header .search .search-btn button{
+    width: 30%;
+    height: 50px;
+    border-radius: 60px;
+    border: 0;
+    background: rgb( 117,31,255);
+    margin-right: -6.3% !important;
+    cursor: pointer;
+ 
+}
+header .logo-navbar .logo-header .search .search-btn:hover{
+    border: 1px solid black;
+    background-color: #fff;
+}
+header .logo-navbar .logo-header .search .search-btn button:hover{
+    background:#000 ;
+    color: white;
+}
+
+header .logo-navbar .acount{
+   width: 35%;
+   height: 100%;
+   
+    
+    
+   
+}
+.line{
+    display: none;
+}
+header .logo-navbar .acount .container {
+   width: 78%;
+   height: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+  
+}
+header .logo-navbar .acount .container  .box{
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    cursor: pointer;
+   
+
+}
+header .logo-navbar .acount .container  .box i{
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+header .logo-navbar .acount .container  .box p {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    padding-top: 12%;
+}
+header .navigation {
+    width: 100%;
+    height: 40px;
+    background: rgb(237,236,236);
+    
+}
+header .navigation nav{
+    width: 45%;
+    height: 100%;
+    
+}
+header .navigation nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+}
+header .navigation nav ul a {
+    color: #000;
+    line-height: 40px;
+    transition:  .4s ease 0s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+   
+    
+}
+header .navigation nav ul a:hover{
+    color: rgb( 117,31,255);;
+}
+main .carousel {
+    width: 100%;
+    position: relative;
+}
+main .carousel .title{
+    position: absolute;
+    margin: -23% 14%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+main .carousel .title p{
+    background: red;
+    width: 15%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .carousel .title  h1{
+    font-size: 60px;
+     
+    font-weight: bold;
+    width: 45%;
+}
+main .carousel .title span{
+    margin-top: 1%;
+    font-size: 20px;
+}
+main .carousel .title  a{
+    width: 17%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 2%;
+    background-color: rgb( 117,31,255);
+    color: white;
+    border-radius: 50px;
+}
+main .carousel .title  a:hover{
+    background-color: #000;
+}
+.section{
+    margin: 2% 2%;
+}
+main .section .card-contaiener{
+
+     position: relative;
+    display: flex;
+  justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+main .section .card-contaiener .box .text{
+    position: absolute;
+    margin: -20% 6%;
+    display: flex;
+    flex-direction: column;
+}
+main .section .card-contaiener .box .text p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+main .section .card-contaiener .box .text h1{
+    font-size: 50px;
+    width: 60%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+main .section .card-contaiener .box .text  span{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+main .section .card-contaiener .box .text  a{
+    width: 40%;
+    background-color: white;
+    height: 50px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: black;
+    transition:  .4s ease 0s;
+
+}
+main .section .card-contaiener .box .text  a:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+main .banner {
+     
+    height: 195px ;
+    background: white;
+}
+main .banner .banner-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+main .banner .banner-container div{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+main .banner .banner-container div h4{
+    width: 75%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+main .banner .banner-container div i {
+    font-size: 50px;
+}
+main .best-sallers{
+    height: 728px ;
+    background-color: white;
+}
+main .best-sallers .sellers-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+main .best-sallers .sellers-container .box{
+    width: 281px;
+    height: 430px;
+    border: 1px solid rgb(207, 201, 201);
+}
+main .best-sallers .sellers-container .box .img {
+    width: 278px;
+    height: 281px;
+    overflow: hidden;
+    
+}
+main .best-sallers .sellers-container .box .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    transition:  .4s ease 0s;
+
+}
+main .best-sallers .sellers-container .box  .title{
+    width: 281px;
+    height: 108.79px;
+    margin: 13px 10px;
+
+}
+main .best-sallers .sellers-container .box .span{
+    width: 56.69px;
+    height: 23.59px;
+    display: flex;
+    justify-content: center;
+    background: red;
+    color: white;
+}
+main .best-sallers .sellers-container .box  .title h3{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+ 
+main  .sellers-container .box .img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}  
+ 
+main .best-sallers .sellers-container .box  .title .price {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb( 117,31,255);
+}
+main .best-sallers .sellers-container .box  .title .price p{
+    text-decoration: line-through;
+    
+}
+main .best-sallers .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4%;
+}
+main .best-sallers .btn a{
+    width: 15%;
+    height: 60px;
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb( 117,31,255);
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    transition:  .4s ease 0s;
+
+}
+main .best-sallers .btn a:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: #000;
+    
+}
+main .category{
+    height: 1074px;
+    background: white;
+
+}
+main .category .category-container{
+    width: 90%;
+    height: 900px;
+     
+    margin: 3% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+main .category .category-container .box {
+    width: 293px;
+    height: 292px;
+}
+main .category .category-container .box .img img{
+    border-radius: 50%;
+    transition:  .4s ease 0s;
+}
+main .category .category-container .box  .title{
+    margin-top: 7%;
+}
+main .category .category-container a  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif
+}
+main .category .category-container img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+main .content-cover{
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+}
+main .content-cover .cover{
+    width: 100%;
+    display: flex;
+}
+main .content-cover .cover .img{
+    width: 60%;
+}
+main .content-cover .cover .title{
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 30% 100%, 21% 70%);
+
+     
+}
+main .content-cover .cover .title h3{
+    margin-left: 9%;
+    font-size: 30px;
+}
+main .content-cover .cover .title p{
+    font-size: 90px;
+    margin-left: 15%;
+    font-weight: bold;
+    height: 18%;
+   
+}
+main .content-cover .cover .title  h4{
+    width: 35%;
+    margin-left: 20%;
+    font-size: 30px;
+    
+}
+main .content-cover .cover .title span{
+    font-size: 18px;
+    margin-left: 15%;
+}
+ 
+ 
+main .content-cover .cover .title a{
+    width: 30%;
+    height: 40px ;
+    background: rgb( 117,31,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+main .content-cover .price{
+    width: 9%;
+    height: 150px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.4));
+    position: absolute;
+    top: 15%;
+    right: 0;
+    bottom: 0;
+    left: 58%;
+    border-radius: 50%;
+    transform: rotate(25deg);
+}
+main .content-cover .price h2{
+    font-size: 30px;
+    color: white;
+     
+      
+
+}
+main .content-cover-section{
+     
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+main .content-cover-section .title{
+    width: 40%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+     
+     
+    background: white;
+    top: 0;
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 0 100%, 0 100%);
+}
+main .content-cover-section .text {
+    margin-top: 20%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+main .content-cover-section .text h1{
+    background-color: red;
+    width: 20%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    
+}
+
+main .content-cover-section .text p {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif
+}
+main .content-cover-section .text p span{
+    color: rgb( 117,31,255);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif
+}
+main .content-cover-section .text span{
+    width: 50%;
+}
+main .content-cover-section .text  a{
+    width: 40%;
+    height: 40px;
+    background: rgb( 117,31,255);
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 50px;
+}
+
+main .brand{
+    background: white;
+    height: 397px;
+}
+main .brand .brand-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin: 0 5%;
+}
+main .brand .brand-container div{
+    border: 1px solid rgb(206, 197, 197);
+    height: 200px;
+}
+
+main .news {
+    height: 267px;
+    background: rgb( 117,31,255);
+    display: flex;
+    flex-direction: column;
+     
+
+}
+main .news p {
+    font-size: 21px;
+    color: white;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+main .news form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+main .news form input {
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+}
+main .news form input::placeholder{
+     
+     color: rgb(180, 180, 180);
+    padding: 0 5%;
+    font-size: 18px;
+}
+main .news form a{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    background: black;
+    margin-left: 50%;
+   position: absolute;
+   color: white;
+   font-size: 21px;
+    
+}
+main .content-section{
+    width: 100%;
+    height: 449px;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+
+
+}
+main .content-section .image{
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 62% 100%, 13% 100%);
+
+}
+main .content-section .image img{
+    height: 100%;
+}
+ 
+main .content-section .title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .content-section .title .text{
+    width: 45%;
+}
+main .content-section .title .text h1{
+    line-height: 1.4em;
+    font-size: 30px;
+    color: white;
+    font-family:   sans-serif;
+    font-weight: bold;
+}
+main .content-section .title .text p{
+    line-height: 1.5em;
+    font-size: 17px;
+    font-family:   sans-serif;
+    color: white;
+}
+main .content-section .title a{
+    width: 25%;
+    height: 60px;
+    background-color: rgb( 117,31,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    font-size: 19px;
+    margin-top: 3%;
+    margin-right: 20%;
+}
+ 
+footer{
+    width: 100%;
+    height: 571px;
+    
+    
+}
+
+footer .footer-container{
+    width: 80%;
+   
+   display: flex;
+   justify-content: space-around;
+    margin: 5% 9%;
+    
+    
+    
+     
+
+}
+footer .footer-container div{
+    line-height: 2rem;
+}
+ 
+footer .footer-container div:nth-child(2) p {
+  font-size: 26px;
+   margin-left: 17%;
+   
+    
+}
+footer .footer-container div:nth-child(3) p {
+    font-size: 26px;
+    margin-left: 15%;
+    width: 100%;
+
+     
+}
+footer .footer-container div:nth-child(4) p {
+     
+    font-size: 26px;
+    margin-left: 18%;
+
+     
+}
+footer .footer-container div nav ul li a{
+    color: black;
+}
+footer .footer-container div i{
+    font-size: 20px;
+}
+ 
+
+footer .line-border{
+    border: 0.1px solid rgb(214, 204, 204);
+}
+.payment{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.payment div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.payment div img{
+    width: 55px;
+    height: 33px;
+}
+
+ 

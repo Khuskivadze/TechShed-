@@ -1,0 +1,229 @@
+main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: white !important;
+ 
+}
+ 
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .right-side{
+    width: 15%;    
+     
+    /* border: 1px solid green; */
+     
+     
+}
+ 
+main .right-side .name {
+    margin: 0 2rem;
+    width: 75%;
+    border-bottom: 1px solid rgb(206, 200, 200);
+     
+     
+
+}
+main .right-side .name  h2{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 25px;
+     
+}
+main .right-side .collection {
+    width: 75%;
+    /* height: 300px; */
+    margin: 1.5rem 2rem;
+    border-bottom: 1px solid rgb(206, 200, 200);
+    cursor: pointer;
+    
+     
+     
+
+    
+}
+main .right-side .collection .dropdown-menu{
+    width: 11%;
+    border-radius: none !important;
+    border: 1px solid black;
+  
+}
+main .right-side .collection .dropdown-menu ul li{
+    width: 100%;
+    height: 30px;
+    line-height: 2rem;
+}
+main .right-side .collection .dropdown-menu ul li a{
+    color: black;
+    width: 100%;
+    height: 100%;
+    
+}
+main .right-side .collection .dropdown-menu ul li:hover{
+    width: 100%;
+    background-color: rgb(198, 222, 226);
+}
+ 
+
+ 
+
+
+main .right-side .collection .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: none
+    ;
+}
+main .right-side .collection .title  h2{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 15px;
+}
+
+ 
+ 
+ 
+ 
+main .left-side{
+    width: 82%;
+     
+    display: flex;
+    flex-direction: column;
+
+}
+main .left-side .sort{
+     width: 14%;
+     margin-left: 80%;
+     border: 1px solid black;
+     border-radius: none;
+     
+}
+ 
+ 
+
+main .left-side .dropdown  .btn{
+    border: none;
+}
+main .left-side .dropdown  .dropdown-menu{
+    width: 100%;
+    border: 1px solid black;
+    background: white;
+    border-radius: none !important;
+    
+}
+
+.shop-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2%;
+    gap: 1rem;
+    
+
+}
+.shop-container .box{
+    width: 350px ;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 212, 212);
+    cursor: pointer;
+    display: none;
+
+}
+.shop-container .box:nth-child(1),
+.shop-container .box:nth-child(2),
+.shop-container .box:nth-child(3),
+.shop-container .box:nth-child(4),
+.shop-container .box:nth-child(5),
+.shop-container .box:nth-child(6),
+.shop-container .box:nth-child(7),
+.shop-container .box:nth-child(8),
+.shop-container .box:nth-child(9),
+.shop-container .box:nth-child(10){
+    display: inline-block;
+}
+
+.shop-container .box .img{
+    width: 100%;
+    height: 393px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.shop-container .box .img img{
+    width: 100%;
+    height: 100%;
+    
+    transition:  .4s ease 0s;
+}
+.shop-container .box .img img:hover{
+    transform: scale(1.1);
+}
+.shop-container .box .title{
+    width: 100%;
+    height: 80px;
+     
+    border-top: 1px solid rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+     
+}
+.shop-container .box .title h3{
+    width: 95%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-left: 5%;
+     
+
+
+}
+.shop-container .box .title span{
+    color: rgb( 117,31,255);
+    font-size: 20px;
+    margin-left: 5%;
+     
+}
+ 
+.button {
+    width: 20%;
+    height: 60px;
+    background-color: rgb( 117,31,255);
+    color: white;
+    border: none;
+    margin-top: 3% !important;
+    margin-left: 40% !important;
+    border-radius: 50px !important;
+    font-size: 21px !important;
+    transition:  .4s ease 0s;
+     
+
+}
+.button:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+ 
+ 
+
+ 
+
